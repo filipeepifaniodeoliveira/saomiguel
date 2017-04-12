@@ -19,9 +19,9 @@ app.config(['$routeProvider', function ($routeProvider){
             controller: "HomeCtrl"
         })
 
-        .when("/comunidade", {
-            templateUrl: "templates/comunidade.html", 
-            controller: "ComunidadeCtrl"
+        .when("/fundador", {
+            templateUrl: "templates/fundador.html", 
+            controller: "FundadorCtrl"
         })
 
         .when("/carisma", {
@@ -63,7 +63,7 @@ app.controller('HomeCtrl', function ($scope, $location) {
 
 });
 
-app.controller('ComunidadeCtrl', function ($scope, $location) {
+app.controller('FundadorCtrl', function ($scope, $location) {
 
 });
 
